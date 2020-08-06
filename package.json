@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "npx tsnd --poll --interval 1000 --respawn src/index.ts"
+    "dev": "npx tsnd --poll --interval 1000 --respawn src/index.ts",
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
